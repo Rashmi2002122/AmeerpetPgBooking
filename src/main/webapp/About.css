@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body {
+	font-family: "Protest Riot", sans-serif;
+	color: white;
+	font-weight: 400;
+	font-style: normal;
+	background:
+		url(https://upload.wikimedia.org/wikipedia/commons/b/b8/Charminar_sumeet_photography_3.JPG)
+		center center/cover no-repeat;
+}
+.bgimg {
+	min-height: 100px;
+	background-size: cover;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+.topnav {
+	background-color: #aa9f9f;
+	border-radius: 5px;
+}
+
+.container {
+	margin: 20px;
+	width: auto;
+}
+
+.topnav a {
+	float: right;
+	color: #f0eaea;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #8a5757;
+	color: black;
+	border-radius: 5px;
+}
+
+span {
+	color: red;
+	font-size: larger;
+}
+
+.about-us {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about-us h1 {
+	margin-bottom: 20px;
+}
+
+.about-us p {
+	line-height: 1.6;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

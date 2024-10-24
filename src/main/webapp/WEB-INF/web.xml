@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+	<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="https://jakarta.ee/xml/ns/jakartaee"
+		xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+		id="WebApp_ID" version="6.0">
+		<display-name>AmeerpetPgBooking</display-name>
+		<welcome-file-list>
+
+			<welcome-file>Home.jsp</welcome-file>
+
+		</welcome-file-list>
+		<servlet>
+			<description></description>
+			<display-name>LoginServlet</display-name>
+			<servlet-name>LoginServlet</servlet-name>
+			<servlet-class>LoginSignIn.LoginServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>LoginServlet</servlet-name>
+			<url-pattern>/LoginServlet</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>SignupServlet</display-name>
+			<servlet-name>SignupServlet</servlet-name>
+			<servlet-class>LoginSignIn.SignupServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>SignupServlet</servlet-name>
+			<url-pattern>/SignupServlet</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>LoginServletAdmin</display-name>
+			<servlet-name>LoginServletAdmin</servlet-name>
+			<servlet-class>LogInSignUpAdmin.LoginServletAdmin</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>LoginServletAdmin</servlet-name>
+			<url-pattern>/LoginServletAdmin</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>SignUpAdmin</display-name>
+			<servlet-name>SignUpAdmin</servlet-name>
+			<servlet-class>LogInSignUpAdmin.SignUpAdmin</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>SignUpAdmin</servlet-name>
+			<url-pattern>/SignUpAdmin</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>CreateRoom</display-name>
+			<servlet-name>CreateRoom</servlet-name>
+			<servlet-class>AdminPanal.CreateRoom</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>CreateRoom</servlet-name>
+			<url-pattern>/CreateRoom</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>ModifyRoom</display-name>
+			<servlet-name>ModifyRoom</servlet-name>
+			<servlet-class>AdminPanal.ModifyRoom</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ModifyRoom</servlet-name>
+			<url-pattern>/ModifyRoom</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>Welcome</display-name>
+			<servlet-name>Welcome</servlet-name>
+			<servlet-class>candidateShow.Welcome</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>Welcome</servlet-name>
+			<url-pattern>/Welcome</url-pattern>
+		</servlet-mapping>
+	</web-app>
+</element>

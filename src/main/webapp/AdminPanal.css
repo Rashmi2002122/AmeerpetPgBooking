@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.bgimg {
+	min-height: 100px;
+	background-size: cover;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+.topnav {
+	background-color: #aa9f9f;
+	border-radius: 5px;
+}
+
+.container {
+	margin: 20px;
+	width: auto;
+}
+
+.topnav a {
+	float: right;
+	color: #f0eaea;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #8a5757;
+	color: black;
+	border-radius: 5px;
+}
+
+.options {
+	text-decoration: none;
+	border: solid;
+	padding: 15px;
+	color: white;
+	font-size: 17px;
+	color: white;
+}
